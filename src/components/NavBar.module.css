@@ -1,0 +1,9 @@
+.AppNavigation {
+    grid-area: nav;
+    background-color: darkblue;
+}
+
+.Item {
+    color: white;
+    size: A5;
+}

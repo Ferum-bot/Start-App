@@ -1,12 +1,12 @@
 import React from 'react';
-import './../App.css'
+import classes from './Header.module.css';
 
 const headerImageAddress = 'https://cdn.logo.com/hotlink-ok/logo-social.png'
 
 const Header = () => {
     return (
-        <header className="App-header">
-            <img src={headerImageAddress} align="left"/>
+        <header className={classes.Header}>
+            <img src={headerImageAddress} align="left" className={classes.Icon}/>
         </header>
     );
 }
