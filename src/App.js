@@ -1,8 +1,8 @@
 import './App.css';
 import React from "react";
 import Header from "./components/Header/Header";
-import NavBar from "./components/NavBar";
-import Profile from "./components/Profile";
+import NavBar from "./components/NavBar/NavBar";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
