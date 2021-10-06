@@ -1,0 +1,19 @@
+.PostsInputDiv {
+    color: green;
+    align-items: start;
+    display: flex;
+    justify-content: left;
+}
+
+.PostInput {
+
+}
+
+.SendButton {
+    color: red;
+    background-color: lawngreen;
+}
+
+.TopDiv {
+    background-color: darkgrey;
+}

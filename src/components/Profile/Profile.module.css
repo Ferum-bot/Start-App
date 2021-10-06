@@ -17,6 +17,7 @@
     min-height: 100%
 }
 
-.Item {
-    color: olivedrab;
+.HeaderText {
+    color: white;
+    margin-bottom: 20px;
 }
