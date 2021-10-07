@@ -1,0 +1,29 @@
+.MainDiv {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Dialog {
+    padding: 10px;
+
+}
+
+.DialogItem {
+    color: lawngreen;
+}
+
+.DialogItem a {
+    color: white;
+}
+
+.ActiveDialogItem {
+    color: red;
+}
+
+.Messages {
+    padding: 10px;
+}
+
+.Message {
+    color: white;
+}

@@ -1,9 +1,18 @@
 .AppNavigation {
     grid-area: nav;
     background-color: darkblue;
+    padding: 20px;
 }
 
-.Item {
+.Item a {
     color: white;
-    size: A5;
+    text-decoration: none;
+}
+
+.Item a.activeLink {
+    color: red;
+}
+
+.ItemActive {
+    color: red;
 }
