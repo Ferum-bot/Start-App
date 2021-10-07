@@ -6,7 +6,7 @@
 
   grid-template-areas:
   "header header"
-  "nav profile";
+  "nav content";
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
@@ -43,4 +43,9 @@
 .Web-List-Points {
   list-style-type: circle;
   background-color: aqua;
+}
+
+.Content {
+  grid-area: content;
+  background-color: blue;
 }

@@ -5,19 +5,19 @@ const NavBar = () => {
     return (
         <nav className={classes.AppNavigation}>
             <div className={classes.Item}>
-                <a>Profile</a>
+                <a href="/profile">Profile</a>
             </div>
             <div className={classes.Item}>
-                <a>Messages</a>
+                <a href="/messages">Messages</a>
             </div>
             <div className={classes.Item}>
-                <a>News</a>
+                <a href="/news">News</a>
             </div>
             <div className={classes.Item}>
-                <a>Music</a>
+                <a href="/music">Music</a>
             </div>
             <div className={classes.Item}>
-                <a>Settings</a>
+                <a href="/settings">Settings</a>
             </div>
         </nav>
     );

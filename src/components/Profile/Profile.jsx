@@ -7,7 +7,7 @@ const profileIconImageAddress = 'https://post.medicalnewstoday.com/wp-content/up
 
 const Profile = () => {
     return (
-        <div className={classes.Profile}>
+        <div>
             <div className={classes.ProfileHeaderDiv}>
                 <img src={topContentImageAddress} className={classes.ProfileHeaderImage}/>
             </div>
