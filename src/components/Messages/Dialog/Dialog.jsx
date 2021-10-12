@@ -13,16 +13,42 @@ const DialogItem = (props) => {
     )
 }
 
+
 const Dialog = (props) => {
+
+    const dialogsData = [
+        {
+            id: 1,
+            label: 'Sahar Ahar'
+        },
+        {
+            id: 2,
+            label: 'Lili Reinhart'
+        },
+        {
+            id: 3,
+            label: 'Andrey'
+        },
+        {
+            id: 4,
+            label: 'Ferum-bot'
+        },
+        {
+            id: 5,
+            label: 'Dr_MatJo'
+        },
+        {
+            id: 6,
+            label: 'Matvey Popov'
+        }
+    ]
+
+    const dialogItems = dialogsData.map((data) => {
+        return <DialogItem dialogId={data.id} dialogName={data.label}/>
+    })
+
     return (
-        <div className={classes.Dialog}>
-            <DialogItem dialogId="1" dialogName="Sahar Ahar"/>
-            <DialogItem dialogId="2" dialogName="Lili Reinhart"/>
-            <DialogItem dialogId="3" dialogName="Andrey"/>
-            <DialogItem dialogId="4" dialogName="Ferum-bot"/>
-            <DialogItem dialogId="5" dialogName="Dr_MatJo"/>
-            <DialogItem dialogId="6" dialogName="Matvey Popov"/>
-        </div>
+        <div className={classes.Dialog}>{dialogItems}</div>
     )
 }
 

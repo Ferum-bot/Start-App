@@ -16,4 +16,10 @@
 
 .TopDiv {
     background-color: darkgrey;
+    margin: 10px;
+}
+
+.MyPosts {
+    text-align: start;
+    padding: 10px;
 }
