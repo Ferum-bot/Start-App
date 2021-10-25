@@ -31,8 +31,23 @@ const dialogsData = [
     }
 ]
 
+const messagesData = [
+    {
+        text: 'Hello'
+    },
+    {
+        text: 'Hello1'
+    },
+    {
+        text: 'Hello2'
+    },
+    {
+        text: 'Hello3'
+    }
+]
+
 ReactDOM.render(
-    <App dialogsData={dialogsData}/>,
+    <App dialogsData={dialogsData} messagesData={messagesData}/>,
   document.getElementById('root')
 );
 
