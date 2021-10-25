@@ -4,8 +4,35 @@ import './index.css';
 import App from './app/App';
 import reportWebVitals from './tests/reportWebVitals';
 
+const dialogsData = [
+    {
+        id: 1,
+        label: 'Sahar Ahar'
+    },
+    {
+        id: 2,
+        label: 'Lili Reinhart'
+    },
+    {
+        id: 3,
+        label: 'Andrey'
+    },
+    {
+        id: 4,
+        label: 'Ferum-bot'
+    },
+    {
+        id: 5,
+        label: 'Dr_MatJo'
+    },
+    {
+        id: 6,
+        label: 'Matvey Popov'
+    }
+]
+
 ReactDOM.render(
-    <App />,
+    <App dialogsData={dialogsData}/>,
   document.getElementById('root')
 );
 
