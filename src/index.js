@@ -3,51 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './app/App';
 import reportWebVitals from './tests/reportWebVitals';
+import state from "./redux/state";
 
-const dialogsData = [
-    {
-        id: 1,
-        label: 'Sahar Ahar'
-    },
-    {
-        id: 2,
-        label: 'Lili Reinhart'
-    },
-    {
-        id: 3,
-        label: 'Andrey'
-    },
-    {
-        id: 4,
-        label: 'Ferum-bot'
-    },
-    {
-        id: 5,
-        label: 'Dr_MatJo'
-    },
-    {
-        id: 6,
-        label: 'Matvey Popov'
-    }
-]
-
-const messagesData = [
-    {
-        text: 'Hello'
-    },
-    {
-        text: 'Hello1'
-    },
-    {
-        text: 'Hello2'
-    },
-    {
-        text: 'Hello3'
-    }
-]
 
 ReactDOM.render(
-    <App dialogsData={dialogsData} messagesData={messagesData}/>,
+    <App appState={state} />,
   document.getElementById('root')
 );
 

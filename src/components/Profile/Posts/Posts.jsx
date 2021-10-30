@@ -1,7 +1,9 @@
 import classes from './Posts.module.css'
 import Post from "./Post/Post";
 
-const Posts = () => {
+const Posts = (props) => {
+    const postComponents = props.posts.map(post => <Post postText={post.postText}/>)
+
     return (
         <div className={classes.TopDiv}>
             <h3 className={classes.MyPosts}>My posts</h3>
@@ -13,9 +15,7 @@ const Posts = () => {
                     <button className={classes.SendButton} onClick={onSendButtonClick}>Send Post</button>
                 </div>
             </div>
-            <Post postText = "Hello world"/>
-            <Post postText = "Hello All"/>
-            <Post postText = "Goodbuy Matvey"/>
+            {postComponents}
         </div>
     );
 }
